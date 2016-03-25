@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ui.mainForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1100" height="543"/>
+    </constraints>
+    <properties>
+      <minimumSize width="650" height="543"/>
+      <preferredSize width="650" height="500"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="44dee" binding="PanelMain" layout-manager="GridBagLayout">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <minimumSize width="850" height="543"/>
+          <preferredSize width="800" height="500"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ef2a9" class="javax.swing.JTextField" binding="txCsvPath">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="/home/orb1t_ua/IdeaProjects/csv_data_test/data11.csv"/>
+            </properties>
+          </component>
+          <component id="b9522" class="javax.swing.JButton" binding="btLoadCsv">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="Load CSV"/>
+            </properties>
+          </component>
+          <tabbedpane id="a6331" binding="tabPanel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="10" use-parent-layout="false">
+                <minimum-size width="700" height="500"/>
+                <preferred-size width="700" height="500"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children/>
+          </tabbedpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
